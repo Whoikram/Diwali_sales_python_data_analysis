@@ -1,51 +1,46 @@
-Diwali_sales_python_data_analysis
-Diwali Sales Data Analysis
-Author: Ikram Ali
-Notebook File: Diwali Sales Project Ikram Ali.ipynb
+🧾 Diwali Sales Data Analysis – Ikram Ali
+This project focuses on analyzing a Diwali sales dataset using Python and popular data analysis libraries. The goal is to uncover valuable business insights from customer behavior during the festive season.
 
-Libraries Used:
+📊 Key Objectives:
+Understand customer demographics (gender, age, marital status)
 
-numpy for numerical operations
+Analyze purchasing trends across states and occupations
 
-pandas for data manipulation and analysis
+Identify top-performing product categories
 
-matplotlib for visualizations
+Visualize key patterns to support data-driven decision-making
 
-seaborn for better-looking plots
+🛠️ Libraries Used:
+NumPy – for numerical operations
 
-%matplotlib inline to display plots within the notebook
+Pandas – for data cleaning and manipulation
 
-Functions and Operations Used:
+Matplotlib – for plotting charts
 
-pd.read_csv() for reading the dataset with unicode_escape encoding
+Seaborn – for attractive statistical visualizations
 
-isnull().sum() and dropna() for handling missing values
+%matplotlib inline – to display plots inside the notebook
 
-drop() for removing unwanted columns
+🧮 Operations Performed:
+Data loading using pd.read_csv() with encoding handling
 
-astype() for converting data types
+Null value treatment using isnull().sum() and dropna()
 
-groupby() for grouped data analysis
+Dropping unwanted columns and data type conversion
 
-describe() for summary statistics
+Exploratory data analysis with groupby(), describe()
 
-countplot() for categorical distribution
+Visualization with countplot(), barplot(), and plt.show()
 
-barplot() for comparing values visually
+📌 Insights Generated:
+Gender-wise and age-wise purchasing behavior
 
-plt.show() to render all the plots
+State-wise revenue and order comparisons
 
-Analysis Performed:
+Impact of marital status on spending habits
 
-Gender-wise purchase comparison
+Popular product categories and customer trends by occupation
 
-Age group and gender-based product analysis
-
-State-wise revenue and order trends
-
-Impact of marital status on purchases
-
-Product category performance
-
-Occupation-wise customer behavior
+📫 Connect with me on Fiverr: www.fiverr.com/whoikram
+📂 Notebook: Diwali Sales Project Ikram Ali.ipynb
 
